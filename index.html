@@ -3,133 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded Linux Engineer | RDK</title>
+    <title>Harsh Kilaji | Embedded Linux Engineer</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
-            background-color: #0f172a;
-            color: #e5e7eb;
+            padding: 0 2rem;
             line-height: 1.6;
+            color: #333;
         }
-
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 40px 20px;
+        header {
+            text-align: center;
+            padding: 2rem 0;
         }
-
-        h1, h2 {
-            color: #f8fafc;
-        }
-
         h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
+            margin-bottom: 0.2rem;
         }
-
-        h2 {
-            margin-top: 50px;
-            border-bottom: 1px solid #334155;
-            padding-bottom: 8px;
+        h2, h3 {
+            color: #00539C;
         }
-
-        p {
-            color: #cbd5f5;
+        section {
+            margin-bottom: 2rem;
         }
-
-        .tagline {
-            color: #94a3b8;
-            font-size: 1.1rem;
+        ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
         }
-
-        .skills span {
-            display: inline-block;
-            background: #1e293b;
-            padding: 8px 12px;
-            margin: 6px 6px 0 0;
-            border-radius: 6px;
+        .contact {
+            margin-top: 0.5rem;
             font-size: 0.9rem;
         }
-
-        a {
-            color: #38bdf8;
-            text-decoration: none;
-        }
-
-        footer {
-            margin-top: 60px;
-            color: #64748b;
-            font-size: 0.9rem;
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-
-    <h1>Embedded Linux Engineer</h1>
-    <div class="tagline">RDK Platform • C/C++ • System Software</div>
-
-    <p>
-        I am an Embedded Linux software engineer with ~5 years of experience working
-        close to the operating system on Linux-based embedded platforms.
-        My work focuses on platform frameworks, internal APIs, and system-level stability
-        on RDK-based devices.
+<header>
+    <h1>Harsh Kilaji</h1>
+    <h2>Embedded Linux | Yocto & BSP Engineer | RDK-V Specialist</h2>
+    <p class="contact">
+        Bangalore, India | Mobile: +91 8963907912 | Email: <a href="mailto:harshkilaji96@gmail.com">harshkilaji96@gmail.com</a>
     </p>
+</header>
 
-    <h2>What I Work On</h2>
+<section>
+    <h2>Professional Summary</h2>
     <p>
-        I work near the OS layer—designing and maintaining C/C++ APIs and framework
-        components that interact closely with the underlying Linux system.
-        My responsibilities often involve debugging multi-process issues,
-        boot-time failures, IPC problems, memory leaks, and runtime instability.
+        Embedded Linux Engineer with 4.7+ years of hands-on experience in <strong>Yocto-based embedded Linux platforms, BSP development, and system-level programming</strong>. 
+        Expertise in Linux kernel customization, board bring-up, Yocto Project builds, and middleware integration for production-grade devices, including set-top boxes and video platforms (RDK-V). 
+        Skilled in C/C++ development, cross-compilation, device driver interaction, boot flow debugging, and performance optimization. 
+        Proven ability to deliver stable Linux images and scalable system solutions while collaborating closely with hardware, firmware, and application teams.
     </p>
+</section>
 
-    <p>
-        I have hands-on experience with Yocto-based embedded Linux systems and understand
-        how the BSP, kernel, root filesystem, and platform services fit together.
-        My approach is to identify root causes and fix problems at the correct layer
-        rather than applying short-term workarounds.
-    </p>
-
-    <h2>Technical Skills</h2>
-    <div class="skills">
-        <span>Embedded Linux</span>
-        <span>RDK (RDK-V)</span>
-        <span>C / C++</span>
-        <span>Linux Internals</span>
-        <span>Yocto</span>
-        <span>BSP & Platform Integration</span>
-        <span>IPC & Multi-process Systems</span>
-        <span>GDB</span>
-        <span>Valgrind</span>
-        <span>Kernel & Boot Debugging</span>
-        <span>Make / CMake</span>
+<section>
+    <h2>Core Technical Skills</h2>
+    <div class="skills-grid">
+        <div>
+            <h3>Embedded Linux & BSP</h3>
+            <ul>
+                <li>Yocto Project, BitBake, custom layers and recipes</li>
+                <li>BSP-level integration for RDK-V and custom platforms</li>
+                <li>Linux boot sequence, root filesystem, systemd, busybox</li>
+                <li>Cross-compilation toolchains (GCC), Linux image builds</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Kernel, Boot & Debugging</h3>
+            <ul>
+                <li>Linux kernel configuration, compilation, and patching</li>
+                <li>Board bring-up and boot flow analysis</li>
+                <li>Debugging with serial console, dmesg, GDB, Valgrind, Strace, Perf</li>
+                <li>Memory leak detection, profiling, and optimization</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Programming & Scripting</h3>
+            <ul>
+                <li>C/C++ (system-level and middleware)</li>
+                <li>Bash/Shell scripting; basic Python</li>
+                <li>POSIX APIs, IPC mechanisms, multithreaded programming</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Drivers, Middleware & Interfaces</h3>
+            <ul>
+                <li>Device drivers: WiFi, Bluetooth, video peripherals</li>
+                <li>IPC: D-Bus, gRPC; Thunder Framework & plugins</li>
+                <li>GStreamer video pipeline integration</li>
+                <li>Third-party module integration and system compliance</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Tools & DevOps</h3>
+            <ul>
+                <li>Git, Make, CMake, Jenkins (CI/CD), Docker</li>
+                <li>Debugging and profiling: Valgrind, Strace, Perf, Itrace</li>
+            </ul>
+        </div>
     </div>
+</section>
 
-    <h2>Projects</h2>
-    <p>
-        This section will include system-level projects such as:
-    </p>
+<section>
+    <h2>Professional Experience</h2>
+    <h3>Senior Software Engineer – Embedded Linux / RDK-V Core</h3>
+    <p><strong>Tata Elxsi, Bangalore</strong> | July 2021 – Present | Team Size: 4–12</p>
+    <h4>Project: NOS (RDK-V Core Development)</h4>
     <ul>
-        <li>Custom Yocto layers and recipes</li>
-        <li>Embedded Linux system daemons (C/C++)</li>
-        <li>Debugging tools and boot analysis utilities</li>
-        <li>Documentation around Linux boot and platform bring-up</li>
+        <li>Led Yocto-based Linux build customization for RDK-V platforms, integrating middleware and platform features.</li>
+        <li>Handled BSP-level integration for seamless hardware, kernel, and user-space interaction.</li>
+        <li>Built, configured, and debugged Linux kernel and root filesystem issues for optimal boot/runtime performance.</li>
+        <li>Conducted board-level bring-up and debugging, analyzing boot logs, kernel panics, and runtime crashes.</li>
+        <li>Debugged device drivers for video pipelines, peripherals, and system services.</li>
+        <li>Performed deep system debugging using GDB, Valgrind, Strace, Perf, and serial consoles.</li>
+        <li>Optimized memory usage and system performance for production-grade embedded devices.</li>
+        <li>Collaborated with hardware, firmware, and application teams for feature integration.</li>
+        <li>Supported Linux image release, CI/CD builds (Jenkins), and validation.</li>
+        <li>Mentored junior engineers on BSP customization, Yocto build practices, and RDK architecture.</li>
+        <li>Assisted in lab bring-up and client support for system validation and troubleshooting.</li>
     </ul>
+    <p><strong>Key Achievements:</strong></p>
+    <ul>
+        <li>Delivered stable, production-ready Linux images for advanced STB platforms.</li>
+        <li>Integrated multiple third-party middleware and RDK-compliant modules into Yocto builds.</li>
+        <li>Streamlined board bring-up and debugging workflows, reducing production troubleshooting time.</li>
+    </ul>
+</section>
 
-    <h2>Links</h2>
-    <p>
-        GitHub: <a href="https://github.com/your-username" target="_blank">github.com/your-username</a><br>
-        LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a>
-    </p>
+<section>
+    <h2>Education</h2>
+    <ul>
+        <li>B.E. – Electronics & Communication, LNCT Bhopal, 2018 | GPA: 6.20</li>
+        <li>Higher Secondary (12th – PCM), State Board, 2014 | 77.2%</li>
+        <li>Secondary (10th – General), State Board, 2012 | 82.83%</li>
+    </ul>
+</section>
 
-    <footer>
-        © 2026 — Embedded Linux & System Software
-    </footer>
-
-</div>
+<section>
+    <h2>Training & Certifications</h2>
+    <ul>
+        <li>Intermediate C/C++ Programming</li>
+        <li>Linux System Programming</li>
+        <li>RDK-V Platform Development</li>
+    </ul>
+</section>
 
 </body>
 </html>
